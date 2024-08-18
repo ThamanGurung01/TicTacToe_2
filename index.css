@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  background-color: #F7EDF0;
+}
+h1{
+  color: seagreen;
+}
+.container{
+  height: 50vh;
+  width: 60vmin;
+  background-color: #F7EDF0;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  margin: 5vh 70vh 4vh;
+}
+.xo{
+  width: 15vmin;
+  height: 15vmin;
+  background-color: #F4AFAB;
+  border-color: #F4AFAB;
+  color: orangered;
+  font-size: 10vmin;
+}
+.btn{
+  width: 15vmin;
+  height: 5vmin;
+}
+.win{
+margin:45vh auto 40vh;
+}
+.msg{
+  font-size: 7vmin;
+  color: seagreen;
+  margin-bottom: 5vmin;
+}
+.hide{
+  visibility:hidden;
+}
